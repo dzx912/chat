@@ -1,0 +1,13 @@
+.idea/
+*.iml
+
+.idea
+target/
+target/**
+.gradle/**
+build/*
+gradle/**
+gradlew*
+.vertx/
+file-uploads/
+out/
