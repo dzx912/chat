@@ -6,22 +6,18 @@
 
     <body>
         <h1>Chat</h1>
-
+        <input id="inputToken" type="text" placeholder="my login...">
         <button id="buttonConnect">Connect</button>
-        <br/>
-        <label>Token:</label>
-        <input id="inputToken" type="text" placeholder="My login" size="50">
-        <br/>
+        <br/><br/>
 
+        <input id="receiverToken" type="text" placeholder="receiver's login...">
+        <br/><br/>
+
+        <input id="inputMessage" type="text" placeholder="text message...">
         <button id="buttonSend" disabled>Send</button>
         <br/>
-        <label>Text: </label>
-        <input id="inputMessage" type="text" placeholder="text message" size="50">
-        <br/>
-        <label>Receiver:</label>
-        <input id="receiverToken" type="text" placeholder="Receiver's login">
-        <br/>
 
-        <textarea id="outputMessage" placeholder="Conversation" disabled cols="70" rows="8"></textarea>
+        <h2>Messages:</h2>
+        <textarea id="outputMessage" placeholder="Conversation" disabled cols="40" rows="8"></textarea>
     </body>
 </html>
