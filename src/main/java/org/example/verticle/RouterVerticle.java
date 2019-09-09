@@ -19,7 +19,7 @@ public class RouterVerticle extends AbstractVerticle {
             vertx.eventBus().send("/token/" + data.getAddress(), message.body());
 
             // Сохраняем сообщение в БД
-            vertx.eventBus().send("database.save", message.body());
+            vertx.eventBus().send("db.message.save", message.body());
         }
     }
 }
